@@ -29,7 +29,7 @@ ALLOWED_HOSTS = ['*'] #!!!!!!!!!!!!!
 
 
 # Application definition
-
+print(BASE_DIR)
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -37,8 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    qa,
-    ask,
+#    qa,
+#    ask,
 ]
 
 MIDDLEWARE = [
