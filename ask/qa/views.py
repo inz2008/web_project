@@ -3,6 +3,6 @@ from django.http import HttpResponse
 #from django.shortcuts import render_to_response
 
 # Create your views here.
-def test(request):
+def test(request, *args, **kwargs):
     return HttpResponse("OK")
 
